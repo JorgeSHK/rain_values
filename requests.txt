@@ -1,6 +1,0 @@
-import sys
-path = '/home/JorgeSHK/rain_values'
-if path not in sys.path:
-    sys.path.append(path)
-
-from app2 import app as application
