@@ -652,9 +652,9 @@ Este proyecto visualiza datos climáticos de México obtenidos de OpenWeather, c
 ### Autor
 [Jorge SHK] - Proyecto para portafolio de Data Analyst
 
-✉️ Contacto: [tu_email@dominio.com](mailto:tu_email@dominio.com)
+✉️ Contacto: [jorgesherrerak@gmail.com](mailto:tu_email@dominio.com)
 
-🔗 [LinkedIn](https://www.linkedin.com/in/tuperfil)
+🔗 [LinkedIn](https://www.linkedin.com/in/jorge-shk/)
 """)
 
 # Sección de metodología en el main
