@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import requests
 import folium
 from folium.plugins import HeatMap
@@ -8,11 +7,8 @@ from streamlit_folium import folium_static
 import datetime
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
-import os
-import time
 import plotly.express as px
 import plotly.graph_objects as go
-import seaborn as sns
 
 # Configuración de la página
 st.set_page_config(
