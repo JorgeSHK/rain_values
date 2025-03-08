@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 # API Key fija - Reemplaza esto con tu propia API key
-API_KEY = "55669b9f19399cc22a9cf6950148015f"  # ← Coloca tu API key aquí
+API_KEY = st.secrets["OPENWEATHER_API_KEY"]
 
 # Título y descripción
 st.title("Análisis de Sequía en México")
