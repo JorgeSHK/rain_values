@@ -671,3 +671,28 @@ st.markdown("""
 3. **Licencia:** 
    MIT License - Uso libre para fines educativos
 """.format(st.session_state.last_update.strftime('%d/%m/%Y %H:%M') if st.session_state.last_update else "N/A"))
+
+with st.expander("📚 Guía Rápida - Cómo Funciona Esta App"):
+    st.markdown("""
+    ## 🎯 Objetivo
+    Analizar patrones de sequía mediante:
+    - Mapa interactivo de probabilidad de lluvia
+    - Pronóstico de temperatura y precipitación
+
+    ## 🔧 Mecánica Técnica
+    ```python
+    # Paso 1: Obtener datos
+    response = requests.get(api_url)
+    
+    # Paso 2: Calcular métricas
+    probabilidad = (periodos_lluvia / total_periodos) * 100
+    
+    # Paso 3: Visualizar
+    folium.Map().add_child(HeatMap(data))
+    ```
+    
+    ## 📊 Interpretación de Gráficos
+    | Gráfico | Elemento Clave | Insight |
+    |---------|----------------|---------|
+    | Matriz Correlación | Valores cerca de +1/-1 | Relaciones fuertes positivas/negativas |
+    """)
