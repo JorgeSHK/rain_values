@@ -1,8 +1,6 @@
-streamlit==1.35.0
-pandas==2.2.2
-numpy==1.26.4
-folium==0.16.0
-plotly==5.18.0
-requests==2.31.0
-matplotlib==3.8.3
-python-dotenv==1.0.1
+import sys
+path = '/home/JorgeSHK/rain_values'
+if path not in sys.path:
+    sys.path.append(path)
+
+from app2 import app as application
